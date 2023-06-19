@@ -22,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
  return (
     <html lang='en' className={`${jost.className}`} >
-      <body className="dark:bg-darkGray font-sans">
+      <body className="bg-darkGray font-sans">
           <Providers>
             <Header />
               <div className='flex md:flex-row flex-col-reverse relative max-h-full max-w-full gap-5'>
