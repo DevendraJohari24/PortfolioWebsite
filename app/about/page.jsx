@@ -37,7 +37,7 @@ const About = () => {
                 </div>
             {/* Download CV */}
             <div className={`flex self-center md:self-start md:mt-0 mt-5`}>
-            <a href="" target='_blank'>
+            <a href="https://drive.google.com/file/d/1eNFJpXJbYfp7X3jRI7YSrGjQbgOHSEmL/view?usp=drive_link" target='_blank'>
 
                     <div className='p-5 flex flex-col items-center border'>
                     <div className='w-24 h-24'>
