@@ -42,7 +42,7 @@ const SideNavbar = () => {
     <>
     <div className="relative h-full -top-12">
     <div className={`${isSideBarOpen ? "w-72": "w-20"} sticky top-0 border-2 border-slate pt-8 p-5 h-screen bg-veryDarkGray duration-500`}>
-            <div className={`absolute cursor-pointer text-slate bg-veryDarkGray -right-3 top-9 w-7 border-2  rounded-full border-slate ${!isSideBarOpen && 'rotate-180'}`} onClick={() => setIsSideBarOpen(!isSideBarOpen)}>
+            <div className={`absolute cursor-pointer dark:text-white text-black bg-veryDarkGray -right-3 top-9 w-7 border-2  rounded-full border-slate ${!isSideBarOpen && 'rotate-180'}`} onClick={() => setIsSideBarOpen(!isSideBarOpen)}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                     <path fillRule="evenodd" d="M7.72 12.53a.75.75 0 010-1.06l7.5-7.5a.75.75 0 111.06 1.06L9.31 12l6.97 6.97a.75.75 0 11-1.06 1.06l-7.5-7.5z" clipRule="evenodd" />
                 </svg>
@@ -69,7 +69,7 @@ const SideNavbar = () => {
                    <Link href={menu.link} key={index} className='flex cursor-pointer p-2 pl-0 hover:bg-slate'>
                      <li key={index} className='text-sm flex items-center gap-x-4 pl-1'>
                         <div dangerouslySetInnerHTML={{ __html: menu.icon }} className='' />
-                        <span className={`${!isSideBarOpen ? "hidden" : ""} origin-left duration-300`}>{menu.title}</span>
+                        <span className={`${!isSideBarOpen ? "hidden" : ""} origin-left dark:text-white text-black duration-300`}>{menu.title}</span>
                     </li>
                    </Link>
                 ) )}

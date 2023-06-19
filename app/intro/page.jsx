@@ -31,7 +31,7 @@ const Intro = () => {
                     <div className='absolute md:w-[440px] w-full md:h-[520px] h-[390px] border-slate mt-4 border group-hover:border-white'></div>
                     <div className='w-fit text-center space-y-4 mt-8'>
                         <div className="md:w-[300px] w-[230px] h-[260px] md:h-[400px]">
-                            <img src="/profile.jpg" alt='' className='w-full h-full object-cover opacity-70' />
+                            <img src="/profile.jpg" alt='' className='w-full h-full object-cover dark:opacity-70' />
                         </div>
                         <div>
                             <p className='uppercase text-slate'>Hi there! I am</p>

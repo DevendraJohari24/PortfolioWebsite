@@ -15,7 +15,7 @@ const ThemeSwitcherButton = () => {
 	if (!mounted) {
 		return null
 	}
-    const currentTheme = theme === "system" ? systemTheme : theme;
+    const currentTheme = theme === "dark" ? systemTheme : theme;
   return (
     <>
      {currentTheme === "dark" ? (
