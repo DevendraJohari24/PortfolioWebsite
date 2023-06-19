@@ -25,7 +25,7 @@ const About = () => {
                         <p>Email</p>
                         <p>LinkedIn</p>
                     </div>
-                    <div className='flex flex-col space-y-5 dark:text-white text-black'>
+                    <div className='flex flex-col space-y-5 text-white '>
                         <p>Devendra Johari</p>
                         <p>20th November 2001 </p>
                         <p>22 years</p>
