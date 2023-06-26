@@ -34,7 +34,7 @@ export const Portfolios = {
             title: "Spice Table",
             subtitle: "restaurant reservation app",
             image_url: "/portfolios/spiceTable.png",
-            link: ""
+            link: "https://github.com/DevendraJohari24/SpiceTable"
         },
         {
             key: "2",
@@ -48,35 +48,35 @@ export const Portfolios = {
             title: "Zomato Food App",
             subtitle: "food delivery app",
             image_url: "/portfolios/Zomato.jpg",
-            link: ""
+            link: "https://github.com/DevendraJohari24/ZomatoCloneApp"
         },
         {
             key: "4",
             title: "Snake Chase",
             subtitle: "a small desktop game",
             image_url: "/portfolios/SnakeGame.jpg",
-            link: ""
+            link: "https://github.com/DevendraJohari24/SnakeGame"
         },
         {
             key: "5",
             title: "Evogym",
             subtitle: "a workout website",
             image_url: "/portfolios/EvoGym.png",
-            link: ""
+            link: "https://github.com/DevendraJohari24/EVOGYMWebsite"
         },
         {
             key: "6",
             title: "WeatherAI",
             subtitle: "a chrome extension",
             image_url: "/portfolios/Chrome.jpg",
-            link: ""
+            link: "https://github.com/DevendraJohari24/ChromeExtension"
         },
         {
             key: "7",
             title: "Sociopedia",
             subtitle: "a blogging platform",
             image_url: "/portfolios/Sociopedia.png",
-            link: ""
+            link: "https://github.com/DevendraJohari24/ShowYourSelf"
         }
     ]
 }

@@ -24,6 +24,7 @@ const About = () => {
                         <p>Phone</p>
                         <p>Email</p>
                         <p>LinkedIn</p>
+                        <p>Blog</p>
                     </div>
                     <div className='flex flex-col space-y-5 text-white '>
                         <p>Devendra Johari</p>
@@ -33,6 +34,7 @@ const About = () => {
                         <p>(+91) 6386946873</p>
                         <p>devendrajohari9@gmail.com</p>
                         <a href='https://www.linkedin.com/in/devendra-johari-a169b0190/'><p>devendra-johari-a169b0190</p></a>
+                        <a href='https://medium.com/@devendrajohari9'><p>devendrajohari9</p></a>
                     </div>
                 </div>
             {/* Download CV */}
